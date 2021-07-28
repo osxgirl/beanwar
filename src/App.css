@@ -1,5 +1,5 @@
 html{
- background-color: #334455;
+ background-color: #5DADEC;
 
 }
 
@@ -8,6 +8,7 @@ body {
   padding: 0;
   font-family: sans-serif;
   padding-bottom: 40px;
+  background-color: #5DF3D5;
 }
 
 .root {
