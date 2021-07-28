@@ -223,7 +223,7 @@ var GameComponent = createReactClass({
         return (
           <div  className="container">
             <div className="row">
-               <div className="col-sm-12 title text-center">WAR: The Card Game</div>
+               <div className="col-sm-12 title text-center">☕️ 🔫 </div>
            </div>
            <div className="row">
                <div className="col-sm-4 player text-center">Player A</div>
