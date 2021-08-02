@@ -501,3 +501,81 @@ Processing by Api::V1::CommentsController#index as */*
 Completed 200 OK in 103ms (Views: 100.2ms | ActiveRecord: 19.6ms | Allocations: 2794)
 
 
+Started GET "/api/v1/comments" for ::1 at 2021-08-02 09:39:18 -0400
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::CommentsController#index as */*
+  [1m[36mComment Load (0.6ms)[0m  [1m[34mSELECT "comments".* FROM "comments"[0m
+  ↳ app/controllers/api/v1/comments_controller.rb:6:in `index'
+Completed 200 OK in 22ms (Views: 9.1ms | ActiveRecord: 5.5ms | Allocations: 4963)
+
+
+Started OPTIONS "/api/v1/comments" for ::1 at 2021-08-02 09:39:26 -0400
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/api/v1/comments"):
+  
+Started OPTIONS "/api/v1/comments" for ::1 at 2021-08-02 09:39:28 -0400
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/api/v1/comments"):
+  
+  [1m[36mComment Load (1.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" /* loading for inspect */ LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/api/v1/comments" for ::1 at 2021-08-02 09:40:46 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::CommentsController#index as */*
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT "comments".* FROM "comments"[0m
+  ↳ app/controllers/api/v1/comments_controller.rb:6:in `index'
+Completed 200 OK in 18ms (Views: 5.1ms | ActiveRecord: 4.8ms | Allocations: 4963)
+
+
+Started OPTIONS "/api/v1/comments" for ::1 at 2021-08-02 09:40:49 -0400
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/api/v1/comments"):
+  
+Started GET "/api/v1/comments" for ::1 at 2021-08-02 09:44:36 -0400
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::CommentsController#index as */*
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT "comments".* FROM "comments"[0m
+  ↳ app/controllers/api/v1/comments_controller.rb:6:in `index'
+Completed 200 OK in 14ms (Views: 4.2ms | ActiveRecord: 3.3ms | Allocations: 4963)
+
+
+Started GET "/api/v1/comments" for ::1 at 2021-08-02 09:45:20 -0400
+Processing by Api::V1::CommentsController#index as */*
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT "comments".* FROM "comments"[0m
+  ↳ app/controllers/api/v1/comments_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.4ms | Allocations: 813)
+
+
+Started GET "/api/v1/comments" for ::1 at 2021-08-02 09:55:12 -0400
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::CommentsController#index as */*
+  [1m[36mComment Load (4.7ms)[0m  [1m[34mSELECT "comments".* FROM "comments"[0m
+  ↳ app/controllers/api/v1/comments_controller.rb:6:in `index'
+Completed 200 OK in 34ms (Views: 5.5ms | ActiveRecord: 23.1ms | Allocations: 4963)
+
+
+Started GET "/videos" for ::1 at 2021-08-02 09:55:22 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/videos"):
+  
+Started GET "/images" for ::1 at 2021-08-02 09:55:22 -0400
+Started GET "/comments" for ::1 at 2021-08-02 09:55:22 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/comments"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images"):
+  
+Started GET "/" for ::1 at 2021-08-02 09:55:47 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 15.4ms | Allocations: 315)
+Completed 200 OK in 48ms (Views: 24.1ms | ActiveRecord: 0.0ms | Allocations: 2449)
+
+
+Started GET "/api/v1/comments" for ::1 at 2021-08-02 09:55:52 -0400
+Processing by Api::V1::CommentsController#index as */*
+  [1m[36mComment Load (0.7ms)[0m  [1m[34mSELECT "comments".* FROM "comments"[0m
+  ↳ app/controllers/api/v1/comments_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.7ms | Allocations: 941)
+
+
