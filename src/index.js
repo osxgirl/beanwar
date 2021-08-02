@@ -1,17 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Auth0Provider } from "@auth0/auth0-react";
+import './index.css';
 import App from './App';
+import reportWebVitals from './reportWebVitals';
+import { Provider } from "react-redux";
+import {createStore, applyMiddleware } from "redux"
+import {composeWithDevTools} from "redux-devtools-extension"
+import commentReducer from './reducers/commentReducer'
+import thunk from 'redux-thunk';
+
+const store = createStore(commentReducer, composeWithDevTools(applyMiddleware(thunk)));
+
 
 ReactDOM.render(
-  <Auth0Provider
-    domain="dev-cpc56fcs.us.auth0.com"
-    clientId="HbyKHdGvLSzHQmxf4rs8tA0PIxvhZgqz"
-    redirectUri={window.location.origin}
-   >
-    <App />
-  </Auth0Provider>,
+  <React.StrictMode>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </React.StrictMode>,
   document.getElementById('root')
-            
-                
 );
+reportWebVitals();

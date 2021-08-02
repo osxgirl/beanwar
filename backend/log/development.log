@@ -579,3 +579,32 @@ Processing by Api::V1::CommentsController#index as */*
 Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.7ms | Allocations: 941)
 
 
+Started GET "/" for ::1 at 2021-08-02 11:23:17 -0400
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.3ms | Allocations: 315)
+Completed 200 OK in 22ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 2453)
+
+
+  [1m[36mComment Load (2.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" /* loading for inspect */ LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/avi/v1/comments" for ::1 at 2021-08-02 11:33:46 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/avi/v1/comments"):
+  
+Started GET "/avi/v1/comment" for ::1 at 2021-08-02 11:33:50 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/avi/v1/comment"):
+  
+Started GET "/avi/v1/comments" for ::1 at 2021-08-02 11:33:54 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/avi/v1/comments"):
+  
+Started GET "/api/v1/comments" for ::1 at 2021-08-02 11:34:03 -0400
+Processing by Api::V1::CommentsController#index as HTML
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT "comments".* FROM "comments"[0m
+  ↳ app/controllers/api/v1/comments_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 4.6ms | ActiveRecord: 3.7ms | Allocations: 2972)
+
+

@@ -27,8 +27,10 @@ p {
 
 button {
   height: 40px;
-  width: 200px;
+  width: 123px;
   margin: 0 auto;
+  
+  
 }
 
 .btn-primary {
