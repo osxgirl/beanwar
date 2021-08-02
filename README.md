@@ -1,11 +1,55 @@
 # Getting Started with beanwar ☕️ 🔫
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/TdQltbP" data-context="false" ><a href="//imgur.com/a/TdQltbP"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<img src="https://ibb.co/DYbQmrX" alt="BeanWar">
 
 This page will help you get started with beanwar. You'll be up and running in a jiffy!
 Welcome to BeanWar!  ☕️ 🔫
 
 You're on your way to playing a React APP WAR card game! Here's some of the things you'll want to do to get going.
+
+
+# 💎 Starting up the APP
+Welcome to my mintbean.io HACKATHON documentation!
+
+This is a React APP with auth0 with a Ruby on Rails backend. The APP is a War car game played by clicking a button to deal cards. It is played as if you are the dealer. The cards are an original set of 52 & styled.
+🕹 To Play — Heroku APP : [https://beanwar.herokuapp.com](BeanWar)
+
+⌨️ To Clone — Github Repo: [https://github.com/osxgirl/beanwar](Github)
+
+
+Once cloned, yarn install and yarn start to have the APP compute. 
+
+yarn start
+
+
+# ♥️ Database Documentation
+
+The backend is a seeded database of comments that view under the game. Anyone can add a comment, there is no name or date associated with the comments and they can not be deleted. 
+The local API is : http://localhost:3000/api/v1/comments.api
+
+# 🛠 Requirements of the Project
+
+* You can build any game you'd like. Whether it's poker, blackjack, or just high-card wins, as long as it sticks to the following requirements:
+* Your game must be played with cards from the standard 52-card deck.
+* Your game must have a clear win condition. For example, in some games, getting rid of all your cards.
+* Your game must have a clear lose condition. For example, in some games, scoring the lowest number of points.
+* Accidental duplications of a card will be considered a bug, for which you will lose points. (See the scoring rubric for more details on how bugs affect your score)
+* No collectible card games or non-standard decks allowed (so for example, no Yu-Gi-Oh!, Magic the Gathering, or Pokemon. And no Tarot cards either.)
+For backend applications
+* There is no need to build a UI.
+* Your API must support sign up and sign in. Auth0 is fine.
+* There must be some meaningful reason for the backend to exist. For example, tracking the player's own scores or points (easy), or having a leaderboard (medium), or having multiplayer (hard).
+* You must provide clear documentation and examples for your API.
+For full-stack applications
+* All of the requirements for Frontend and Backend applications apply.
+
+https://mintbean.io/meets/7e2331fb-1e0d-4b31-86b9-a46acad877af
+
+# 💬 I am here to help!
+
+If you get stuck, [shoot me an email](mailto:osxgirl@mac.com).
+
+Excited you're here! :blue-heart:
 
 
 ## Available Scripts
@@ -74,47 +118,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-# 💎 Starting up the APP
-Welcome to my mintbean.io HACKATHON documentation!
-
-This is a React APP with auth0 with a Ruby on Rails backend. The APP is a War car game played by clicking a button to deal cards. It is played as if you are the dealer. The cards are an original set of 52 & styled.
-🕹 To Play — Heroku APP : [https://beanwar.herokuapp.com](BeanWar)
-
-⌨️ To Clone — Github Repo: [https://github.com/osxgirl/beanwar](Github)
-
-
-Once cloned, yarn install and yarn start to have the APP compute. 
-
-yarn start
-
-
-# ♥️ Database Documentation
-
-The backend is a seeded database of comments that view under the game. Anyone can add a comment, there is no name or date associated with the comments and they can not be deleted. 
-The local API is : http://localhost:3000/api/v1/comments.api
-
-# 🛠 Requirements of the Project
-
-* You can build any game you'd like. Whether it's poker, blackjack, or just high-card wins, as long as it sticks to the following requirements:
-* Your game must be played with cards from the standard 52-card deck.
-* Your game must have a clear win condition. For example, in some games, getting rid of all your cards.
-* Your game must have a clear lose condition. For example, in some games, scoring the lowest number of points.
-* Accidental duplications of a card will be considered a bug, for which you will lose points. (See the scoring rubric for more details on how bugs affect your score)
-* No collectible card games or non-standard decks allowed (so for example, no Yu-Gi-Oh!, Magic the Gathering, or Pokemon. And no Tarot cards either.)
-For backend applications
-* There is no need to build a UI.
-* Your API must support sign up and sign in. Auth0 is fine.
-* There must be some meaningful reason for the backend to exist. For example, tracking the player's own scores or points (easy), or having a leaderboard (medium), or having multiplayer (hard).
-* You must provide clear documentation and examples for your API.
-For full-stack applications
-* All of the requirements for Frontend and Backend applications apply.
-
-https://mintbean.io/meets/7e2331fb-1e0d-4b31-86b9-a46acad877af
-
-# 💬 I am here to help!
-
-If you get stuck, [shoot me an email](mailto:osxgirl@mac.com).
-
-Excited you're here! :blue-heart:
