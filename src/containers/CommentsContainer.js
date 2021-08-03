@@ -3,7 +3,7 @@ import React from 'react'
 import CommentForm from '../components/CommentForm'
 
 
-const url ="http://localhost:3000/api/v1/comments"
+const url ="https://peaceful-crag-53652.herokuapp.com/api/v1/comments"
 
 class CommentsContainer extends React.Component{
    
