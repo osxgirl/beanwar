@@ -1,7 +1,7 @@
 # Getting Started with beanwar ☕️ 🔫
-![BeanWar](https://ibb.co/DYbQmrX)
+
 This page will help you get started with beanwar. You'll be up and running in a jiffy!
-Welcome to BeanWar!  ☕️ 🔫
+Welcome to BeanWar!  
 You're on your way to playing a React APP WAR card game! Here's some of the things you'll want to do to get going.
 
 
@@ -24,7 +24,6 @@ The local API is : http://localhost:3000/api/v1/comments.api
 The web API is : https://peaceful-crag-53652.herokuapp.com/api/v1/comments.api
 
 # 🛠 Requirements of the Project
-“
 * You can build any game you'd like. Whether it's poker, blackjack, or just high-card wins, as long as it sticks to the following requirements:
 * Your game must be played with cards from the standard 52-card deck.
 * Your game must have a clear win condition. For example, in some games, getting rid of all your cards.
@@ -40,7 +39,6 @@ For full-stack applications
 * All of the requirements for Frontend and Backend applications apply.
 
 https://mintbean.io/meets/7e2331fb-1e0d-4b31-86b9-a46acad877af 
-                                                                                                                ”
 
 # 💬 I am here to help!
 
